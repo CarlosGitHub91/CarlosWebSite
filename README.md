@@ -1,59 +1,121 @@
 # CarlosWebSite
 Primer proyecto, en creación de perfil
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>EXAMEN 1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div>
-            <form method ="post" action="procesaDatos.php">
-                <p>
-                    <label for ="nombre">Nombre:</label><input id ="nombre" type = "text" size = "20"/><br/>
-                    <label for ="apellido">apellido:</label><input id ="apellido" type = "text" size = "20"/><br/>
-                    <label for ="email">email:</label><input id ="email" type = "text" size = "20"/><br/>
-                    <label for ="clave">clave:</label><input id ="clave" type = "text" size = "20"/><br/>
-                    <input type= "submit" value="Enviar información"/>
-                    <input type="reset" value= "Borrar Selección"/>            
-                </p>
-            </form>
-        </div>  
-        <div>
-            <table border ="1">
+            <center>
+                <h1>CAMPUS CÁMARA FP</h1>
+            <p id = "titulo"> Tabla 1. Primer Curso DAM</p>
+            
+            <table border ="5" cellpadding = "8">
                 <tr>
-                    <td>Casilla1</td>
-                    <td>Casilla2</td>
+                    <th>MÓDULO</th>
+                    <th>HORAS</th>
+                    <th>HORAS/SEMANA</th>
                 </tr>
                  <tr>
-                    <td>Casilla3</td>
-                    <td>Casilla4</td>
+                    <td>0483.Sistemas informáticos</td>
+                    <td>160</td>
+                    <td>5</td>
                 </tr>
                  <tr>
-                    <td>Casilla5</td>
-                    <td>Casilla6</td>
-                </tr>
-            </table>
-            <br></br>
-        </div>
-        <div>
-            <table border ="1">
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
+                    <td>0484.Bases de datos</td>
+                    <td>160</td>
                     <td>5</td>
                 </tr>
                 <tr>
-                    <td>6</td>
-                    <td>7</td>
+                    <td>0485.Programación</td>
+                    <td>256</td>
                     <td>8</td>
-                    <td>9</td>
-                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>0373.Lenguajes de marcas y </br>sistemas de gestión de</br> información</td>
+                    <td>96</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>0487.Entornos de desarrollo</td>
+                    <td>96</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>0493.Formación y orientación</br> laboral</td>
+                    <td>96</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Inglés</td>
+                    <td>96</td>
+                    <td>3</td>
                 </tr>
             </table>
+            
+            <br></br>
+            <br></br>
+            
+
+            <p id="titulo"> Tabla 2. Segundo Curso DAM</p>
+            <table border ="5" cellpadding = "8">
+                <tr>
+                    <th>MÓDULO</th>
+                    <th>HORAS</th>
+                    <th>HORAS/SEMANA</th>
+                </tr>
+                 <tr>
+                    <td>0486.Acceso a datos</td>
+                    <td>120</td>
+                    <td>6</td>
+                </tr>
+                 <tr>
+                    <td>0488.Datos de interfaces</td>
+                    <td>120</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>0489.Programación multimedia y</br> dispositivos móviles</td>
+                    <td>100</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>0490.Programación de servicios y</br> procesos</td>
+                    <td>60</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>0491.Sistema de gestión</br> empresarial</td>
+                    <td>100</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>0494.Empresa e iniciativa</br> emprendedora</td>
+                    <td>60</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Inglés</td>
+                    <td>40</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>0495.FCT</td>
+                    <td>400</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>0492.Proyecto de DAM</td>
+                    <td>40</td>
+                    <td></td>
+                </tr>
+            </table>
+            </center>
         </div>
     </body>
 </html>
